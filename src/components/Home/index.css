@@ -1,0 +1,33 @@
+.bg-container {
+  background-color: #152850;
+  padding: 20px;
+  height: 100vh;
+  color: white;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.heading {
+  color: white;
+  font-size: 16px;
+}
+.card {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 34px;
+  }
+  .card {
+    width: 45%;
+  }
+}

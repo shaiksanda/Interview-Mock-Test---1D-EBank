@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout-button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logout-button:hover {
+  transform: scale(1.03);
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    margin: 0 50px 0 50px;
+  }
+}
